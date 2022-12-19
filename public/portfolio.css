@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand";
+}
+
+.container{
+    background-color: rgb(73, 68, 68);
+    height: 60vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.navbar img{
+    height: 100px;
+    padding-left: 40px;
+}
+
+.listitems{
+    display: inline;
+    color: darkgray;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 50px;
+}
+
+.container h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 90px;
+    
+}
+
+.content{
+    position: relative;
+}
+
+.content h1{
+    position: absolute;
+    z-index: 1;
+}
+
+.content img{
+   height: 800px;
+   position: absolute;
+   top: -350px;
+   left: 50px;
+}
+
+
+.content2{
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    color: white;
+}
+.content2 h1{
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.content2 h3{
+    color: darkgrey;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+.container2{
+    background-color: rgb(45, 45, 49);
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.content3{
+    margin-left: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.content3 h3{
+    color: darkgrey;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.content3 h1{
+    margin-bottom: 20px;
+}
+
+.content3 p{
+    color: darkgrey;
+    margin-bottom: 70px;
+}
+
+.content3 a{
+    color: yellow;
+}
+
+.content4{
+    color: white;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+.content4 p{
+    color: gray;
+    font-size: 20px;
+}
+
+.content4 h1{
+    margin-bottom: 20px;
+}
+
+.skills {
+    position: absolute;
+    left: 40rem;
+    font-size: 30px;
+    top: 35rem;
+    text-decoration: underline;
+    color: white;
+}
+
+.overlaps{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: absolute; /* Reposition logo from the natural layout */
+    left: -15rem;
+    top:880px;
+    z-index: 2;
+ 
+}
+
+.overlaps img{
+    height:70px;
+    position: absolute;
+    left: 3rem;
+    top: 0.3rem;
+}
+
+.boxContent{
+    width: 300px;
+    height: 300px;
+    background: #706868;
+    margin-left:50px;
+    position: relative;
+    top: 450px;
+    left: 250px;
+}
+
+.boxContent h4{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.boxContent p{
+    position: absolute;
+    top: 7rem;
+    left: 5rem;
+}
+
+.container3{
+    background-color: #23263A;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display:flex;
+}
+
+.contents{
+    flex:50%;
+    height:100%;
+    margin-top:400px;
+    margin-left:85px;
+}
+
+.contentBox{
+    background: #07081F;
+    width:450px;
+    height:80vh;
+    margin-bottom: 100px;
+}
+
+.info{
+    height:100%;
+    width:450px;
+    margin-bottom: 100px;
+    font-size: 20px;
+
+}
+
+.container4{
+    background-color:#091125;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display:flex;
+    padding-bottom: 50px;
+}
+
+.image{
+    flex:50%;
+    padding-left: 100px;
+    margin-top:20px;
+
+}
+.text{
+    margin-top:150px;
+    padding-right:300px;
+    flex:50%;
+    font-size: 20px;
+    
+}
+
+.container5{
+    background-color: #101732;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display:flex;
+}
+
+.footer img{
+    height: 100px;
+    position: absolute;
+    bottom: -210px;
+    left: -80px;
+}
+
+.footer h4{
+    color: grey;
+    font-weight: normal;
+    position: absolute;
+    bottom: -210px;
+    left: -123px;
+}
